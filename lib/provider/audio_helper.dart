@@ -35,11 +35,13 @@ Widget getAlbumArt(SongInfo song) {
   if (song.albumArtwork == null)
     return Container(
         width: 60, height: 60, child: Icon(Icons.music_note_sharp));
-  else
+  else {
     return CircleAvatar(
       backgroundImage: FileImage(File(song.albumArtwork)),
       radius: 50,
-      minRadius: 30,
-      maxRadius: 70,
+      // removing the radius constraints runs the code without the error.
+      // minRadius: 30,
+      // maxRadius: 70,
     );
+  }
 }
