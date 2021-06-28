@@ -4,8 +4,13 @@ Music Player made using Flutter
 
 ## Getting Started
 
-### Disclaimer
+## Disclaimer
 The project is under heavy development and is not deployement ready yet.
+
+## Summary
+
+This was my starter project into open source in KWOC 2020. 
+
 
 This project is a starting point for a Flutter application.
 
