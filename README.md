@@ -4,6 +4,9 @@ Music Player made using Flutter
 
 ## Getting Started
 
+### Disclaimer
+The project is under heavy development and is not deployement ready yet.
+
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
